@@ -7,7 +7,7 @@
   height_inches:
     - 18
     - 23
-  life_expectency:
+  life_expectancy:
     - 12
     - 15
   other_names:
@@ -20,7 +20,7 @@
   height_inches:
     - 17
     - 20
-  life_expectency:
+  life_expectancy:
     - 12
     - 16
   other_names:
@@ -35,7 +35,7 @@
   height_inches:
     - 18
     - 22
-  life_expectency:
+  life_expectancy:
     - 12
     - 15
   other_names:
@@ -48,7 +48,7 @@
   height_inches:
     - 13.5
     - 16.5
-  life_expectency:
+  life_expectancy:
     - 13
     - 16
   other_names:
@@ -61,7 +61,7 @@
   height_inches:
     - 20
     - 23.5
-  life_expectency:
+  life_expectancy:
     - 12
     - 14
   other_names:
@@ -75,7 +75,7 @@
   height_inches:
     - 17
     - 21
-  life_expectency:
+  life_expectancy:
     - 12
     - 14
   other_names:
@@ -89,7 +89,7 @@
   height_inches:
     - 12
     - 15
-  life_expectency:
+  life_expectancy:
     - 12
     - 15
   other_names:
@@ -102,7 +102,7 @@
   height_inches:
     - 22
     - 26
-  life_expectency:
+  life_expectancy:
     - 14
     - 16
   other_names:
@@ -116,7 +116,7 @@
   height_inches:
     - 24
     - 28
-  life_expectency:
+  life_expectancy:
     - 10
     - 11
   other_names:
