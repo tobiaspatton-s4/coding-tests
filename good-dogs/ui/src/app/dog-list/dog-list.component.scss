@@ -1,19 +1,21 @@
+@import '~node_modules/bootstrap/scss/bootstrap';
+
 table {
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid theme-color("dark");
     border-collapse: collapse;
     tr {
         &.selected {
-            background-color: blue;
+            background-color: theme-color("primary");
         }
         th {
-            border-right: 1px solid black;
-            border-bottom: 1px solid black;
+            border-right: 1px solid theme-color("dark");
+            border-bottom: 1px solid theme-color("dark");
             font-weight: bold;
             text-align: left;
         }
         td {
-            border-right: 1px solid black;
+            border-right: 1px solid theme-color("dark");
             cursor: pointer;
         }
     }
