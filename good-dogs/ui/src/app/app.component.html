@@ -1,0 +1,6 @@
+<h1>They're All Good Dogs</h1>
+
+<div>
+  <app-dog-list (selected)="this.onDogSelected($event)"></app-dog-list>
+  <app-dog-details [selectedDogName]="this.selectedDogName"></app-dog-details>
+</div>

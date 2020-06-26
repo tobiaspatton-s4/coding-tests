@@ -1,0 +1,11 @@
+<div>
+    <span *ngIf="dog === null">Select a dog to see details</span>
+    <div *ngIf="dog !== null">
+        <div>Name: {{dog.name}}</div>
+        <div>Group: {{dog.group}}</div>
+        <div>Height: {{dog.minHeight}}&Prime; &#x2192; {{dog.maxHeight}}&Prime;</div>
+        <div>Weight: {{dog.minWeight}}lb &#x2192; {{dog.maxWeight}}lb</div>
+        <div>Life Expectancy: {{dog.minLifeExpectancy}} &#x2192; {{dog.maxLifeExpectancy}} years</div>
+        <div>Other Names: {{dog.otherNames?.join(", ")}}</div>
+    </div>
+</div>

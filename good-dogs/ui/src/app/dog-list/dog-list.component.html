@@ -1,0 +1,13 @@
+<div>
+    <table>
+        <tr>
+            <th>Breed</th>
+            <th>Group</th>
+        </tr>
+        <tr *ngFor="let dog of allDogs; let i = index" (click)="clickRow(i)" 
+            [ngClass]="{'selected': selectedIdx == i}">
+            <td>{{dog.name}}</td>
+            <td>{{dog.group}}</td>
+        </tr>
+    </table>
+</div>
