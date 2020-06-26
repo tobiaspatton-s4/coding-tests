@@ -1,0 +1,124 @@
+---
+- name: Australian Shepherd
+  group: herding
+  weight_pounds:
+    - 40
+    - 65
+  height_inches:
+    - 18
+    - 23
+  life_expectency:
+    - 12
+    - 15
+  other_names:
+
+- name: Australian Cattle Dog
+  group: herding
+  weight_pounds:
+    - 25
+    - 50
+  height_inches:
+    - 17
+    - 20
+  life_expectency:
+    - 12
+    - 16
+  other_names:
+    - Blue Heeler
+    - Queensland Heeler
+
+- name: Border Collie
+  group: herding
+  weight_pounds:
+    - 30
+    - 55
+  height_inches:
+    - 18
+    - 22
+  life_expectency:
+    - 12
+    - 15
+  other_names:
+
+- name: Shiba Inu
+  group: Non-sporting
+  weight_pounds:
+    - 17
+    - 23
+  height_inches:
+    - 13.5
+    - 16.5
+  life_expectency:
+    - 13
+    - 16
+  other_names:
+
+- name: Siberian Husky
+  group: Working
+  weight_pounds:
+    - 35
+    - 60
+  height_inches:
+    - 20
+    - 23.5
+  life_expectency:
+    - 12
+    - 14
+  other_names:
+    - Husky
+
+- name: Nova Scotia Duck Tolling Retriever
+  group: Sporting
+  weight_pounds:
+    - 35
+    - 50
+  height_inches:
+    - 17
+    - 21
+  life_expectency:
+    - 12
+    - 14
+  other_names:
+    - Toller
+
+- name: Border Terrier
+  group: Terrier
+  weight_pounds:
+    - 11.5
+    - 55.5
+  height_inches:
+    - 12
+    - 15
+  life_expectency:
+    - 12
+    - 15
+  other_names:
+
+- name: Belgian Malinois
+  group: Herding
+  weight_pounds:
+    - 40
+    - 80
+  height_inches:
+    - 22
+    - 26
+  life_expectency:
+    - 14
+    - 16
+  other_names:
+    - Mal
+
+- name: Doberman Pinscher
+  group: Herding
+  weight_pounds:
+    - 60
+    - 100
+  height_inches:
+    - 24
+    - 28
+  life_expectency:
+    - 10
+    - 11
+  other_names:
+    - Doberman
+...
