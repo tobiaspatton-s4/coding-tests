@@ -1,6 +1,7 @@
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { DogService } from '../shared/dog.service';
 import { DogSummary } from '../shared/model/dog-summary';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-dog-list',
@@ -10,24 +11,14 @@ import { DogSummary } from '../shared/model/dog-summary';
 export class DogListComponent implements OnInit {
 
   public allDogs: Array<DogSummary> = [];
-  public selectedIdx?: number = null;
+  public selectedBreed: string;
 
-  @Output() selected = new EventEmitter<string>();
-
-  constructor(private dogService: DogService) { }
+  constructor(private dogService: DogService, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
     this.dogService.getAllDogBreeds().subscribe(dogs => this.allDogs = dogs);
-  }
-
-  public clickRow(index: number): void {
-    if (this.selectedIdx === index) {
-      // Clicking on the selected row deselects it
-      this.selectedIdx = null;
-    } else {
-      this.selectedIdx = index;
-    }
-    const dogName = this.selectedIdx !== null ? this.allDogs[this.selectedIdx].name : null;
-    this.selected.emit(dogName);
+    this.route.paramMap.subscribe(params => {
+      this.selectedBreed = params.get('breed');
+    });
   }
 }
