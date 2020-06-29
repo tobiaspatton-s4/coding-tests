@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { DogService } from '../shared/dog.service';
 import { Dog } from '../shared/model/dog';
 import { ActivatedRoute } from '@angular/router';
+import { catchError } from 'rxjs/operators';
+import { of } from 'rxjs';
 
 @Component({
   selector: 'app-dog-details',
@@ -19,8 +21,8 @@ export class DogDetailsComponent implements OnInit {
       const breed = params.get('breed');
       if (breed !== null && breed !== '') {
         this.dogService.getDog(breed).subscribe(
-          d => this.dog = d
-        );
+            d => this.dog = d
+          );
       } else {
         this.dog = null;
        }
