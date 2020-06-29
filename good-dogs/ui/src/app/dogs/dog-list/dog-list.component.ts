@@ -1,7 +1,7 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { DogService } from '../shared/dog.service';
-import { DogSummary } from '../shared/model/dog-summary';
+import { DogService } from '../../shared/dog.service';
+import { DogSummary } from '../../shared/model/dog-summary';
 import * as _ from 'lodash';
 
 @Component({

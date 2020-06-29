@@ -3,8 +3,8 @@ import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { DogListComponent } from './dog-list.component';
 import { Subject, of } from 'rxjs';
 import { ActivatedRoute, convertToParamMap, Router } from '@angular/router';
-import { DogService } from '../shared/dog.service';
-import { DogSummary } from '../shared/model/dog-summary';
+import { DogService } from '../../shared/dog.service';
+import { DogSummary } from '../../shared/model/dog-summary';
 
 describe('DogListComponent', () => {
   let component: DogListComponent;

@@ -4,8 +4,8 @@ import { DogDetailsComponent } from './dog-details.component';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { ActivatedRoute, convertToParamMap } from '@angular/router';
 import { Subject, from } from 'rxjs';
-import { Dog } from '../shared/model/dog';
-import { DogService } from '../shared/dog.service';
+import { Dog } from '../../shared/model/dog';
+import { DogService } from '../../shared/dog.service';
 
 describe('DogDetailsComponent', () => {
   let component: DogDetailsComponent;
