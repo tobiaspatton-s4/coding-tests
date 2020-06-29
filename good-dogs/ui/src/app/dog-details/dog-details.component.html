@@ -1,6 +1,7 @@
-<div>
+<div class="details p-2">
     <span *ngIf="dog === null">Select a dog to see details</span>
     <div *ngIf="dog !== null">
+        <div class="title">Details</div>
         <div>Name: {{dog.name}}</div>
         <div>Group: {{dog.group}}</div>
         <div>Height: {{dog.minHeight}}&Prime; &#x2192; {{dog.maxHeight}}&Prime;</div>

@@ -1,0 +1,12 @@
+@import '~node_modules/bootstrap/scss/bootstrap';
+
+.details {
+    border-radius: 5px;
+    border: 1px solid gray("600");
+    background-color: theme-color-level("info", -5);
+
+    .title {
+        font-size: 1.1em;
+        font-weight: 500;   
+    }
+}

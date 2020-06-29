@@ -1,0 +1,14 @@
+@import '~node_modules/bootstrap/scss/bootstrap';
+
+.app {
+    background-color: theme-color-level("info", -10);
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 1.5em;
+    background-color: theme-color("info");
+}
